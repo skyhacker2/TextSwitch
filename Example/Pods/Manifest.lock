@@ -1,0 +1,14 @@
+PODS:
+  - TextSwitch (0.1.0)
+
+DEPENDENCIES:
+  - TextSwitch (from `../`)
+
+EXTERNAL SOURCES:
+  TextSwitch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TextSwitch: 4cc2e7874b9a9c3b18a5fcb9efa0319ff09e0a37
+
+COCOAPODS: 0.37.2

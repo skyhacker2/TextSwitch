@@ -24,6 +24,10 @@ pod "TextSwitch"
 
 Eleven Chen, skyhacker@126.com
 
+##Screenshot
+
+![image](./screenshot.png)
+
 ## License
 
 TextSwitch is available under the MIT license. See the LICENSE file for more info.

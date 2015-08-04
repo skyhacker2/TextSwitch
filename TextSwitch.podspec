@@ -10,18 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "TextSwitch"
   s.version          = "0.1.0"
-  s.summary          = "A short description of TextSwitch."
+  s.summary          = "Simple iOS switch button with text."
   s.description      = <<-DESC
-                       An optional longer description of TextSwitch
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        Simple iOS switch button with text.
+                        Enjoy it.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TextSwitch"
+  s.homepage         = "https://github.com/skyhacker2/TextSwitch.git"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Eleven Chen" => "skyhacker@126.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TextSwitch.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/skyhacker2/TextSwitch.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
