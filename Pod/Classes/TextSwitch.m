@@ -173,6 +173,14 @@
     [self layoutIfNeeded];
 }
 
+- (void) setPadding:(CGFloat)padding
+{
+    _padding = padding;
+    [self layoutIfNeeded];
+}
+
+#pragma mark - actions
+
 - (BOOL) beginTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event
 {
     self.touchPoint = [touch locationInView:self];
