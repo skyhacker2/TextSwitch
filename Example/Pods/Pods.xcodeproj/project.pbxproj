@@ -7,503 +7,562 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EFE3BAC2B94C8CCC1E64089 /* Pods-TextSwitch_Example-TextSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E9D1C6852606630C9E4D28 /* Pods-TextSwitch_Example-TextSwitch-dummy.m */; };
-		1C8E8042920A2CCC1EE15B51 /* Pods-TextSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F569366AC8CD73D845F0F456 /* Pods-TextSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3076E554D96F35C3A171DE44 /* TextSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC69A31633CC3A99173E854 /* TextSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3951049E2638D9368CA75276 /* Pods-TextSwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE0CF4D4B727B1411596E30 /* Pods-TextSwitch_Tests-dummy.m */; };
-		3CF349F3BA9BB38E3C56460A /* Pods-TextSwitch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7B6F059BCE068013F6C5AF /* Pods-TextSwitch_Example-dummy.m */; };
-		4D117503150D5A0779C2AEA1 /* TextSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 616C4A561BBEEAA10D0F8C2D /* TextSwitch.m */; };
-		5F897A317CC4599C077FEF88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E96DE06DBD22B98FA04FE5F /* Foundation.framework */; };
-		600D9CFFD70BDB4665D4636B /* Pods-TextSwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5ACC3BFD1DF653C61FE2C3C /* Pods-TextSwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D1217FDF3C1D71668A4B046 /* TextSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC69A31633CC3A99173E854 /* TextSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DFB2626B1F7D22814D3FAE3 /* TextSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 616C4A561BBEEAA10D0F8C2D /* TextSwitch.m */; };
-		80A2EE6CFF4537884E4FCE44 /* Pods-TextSwitch_Tests-TextSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4761C66A4C41F8B52C268872 /* Pods-TextSwitch_Tests-TextSwitch-dummy.m */; };
-		8D569065C2A03B79EADC7C54 /* Pods-TextSwitch_Tests-TextSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 872036AF0D49B4190BE56978 /* Pods-TextSwitch_Tests-TextSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A36AF8E315F42C723D4EBAC /* TextSwitch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D238B19D917B94D6C171A6C3 /* TextSwitch.bundle */; };
-		9D936CB808B57789C03B5D1F /* Pods-TextSwitch_Example-TextSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE86FAEA48BF64F3A52CF2E /* Pods-TextSwitch_Example-TextSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB748E9BEE3274E058088D54 /* TextSwitch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C3B41C2741198B38BACDF99 /* TextSwitch.bundle */; };
-		B82BF7DFB326F493FDEA37F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E96DE06DBD22B98FA04FE5F /* Foundation.framework */; };
-		CB5B41F77053680582C1C122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E96DE06DBD22B98FA04FE5F /* Foundation.framework */; };
-		FBC7BA00EBF3073E7E10343C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E96DE06DBD22B98FA04FE5F /* Foundation.framework */; };
+		10D59C19250A545CD987FAE9713D96B4 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8402BE02B163E5D45FC970AC2DBA2989 /* UIView+Extend.m */; };
+		1396223BD5C12191E4E5B5A2625840B9 /* Pods-TextSwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86031D36544A335D010CA04147EBE71D /* Pods-TextSwitch_Tests-dummy.m */; };
+		16C680BD838733383EEE4449AA64FDED /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D84D228ADA0314CD56D08B9475461 /* UIImage+Extend.m */; };
+		1BCAF6BC4E42ACFB3B2DDFF72EABD592 /* TextSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F82173627F87DA94798AF97C95DA13A /* TextSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2095443864DDDDC30711CC3632D45574 /* UIView+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A01A9FA4B122FB2436C0E6F9410F14 /* UIView+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50DBAD52EFEB81D2F6D765FE09C5E8C5 /* TextSwitch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52A0B64C9C50FBAA7BE9121433E825B0 /* TextSwitch.bundle */; };
+		622D5E69EC98A89EDC4B39D3C44E151E /* UIImage+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 92FC4703CE14BE0BE56F663BC8E57E6A /* UIImage+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		662A8F918BF874DD83FF82C0DE5FD6D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2578C4E3E5F8B7454DB169DC9BA2522 /* Foundation.framework */; };
+		6689281C33FCAEAE8F1BECD1A29DAE05 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6772E2DC2467A1450D5CF0478EB91D39 /* UIColor+Extend.m */; };
+		6A0E2817355A8D6BAE9141FC3CDBAA73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2578C4E3E5F8B7454DB169DC9BA2522 /* Foundation.framework */; };
+		70D9198371FD2BB9C287794C6E7108A4 /* TextSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB752E9AE3563B181F1649A867DDCB4F /* TextSwitch-dummy.m */; };
+		7398851C32156EB48AD21B195ABC0C36 /* TextSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3B33C660D7ECA065D409EF6773E67F /* TextSwitch.m */; };
+		91D732EABA62F3AE88043C65A0833AB0 /* ECExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0055754BD673DEB7BE41BF22C3F249 /* ECExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92F66D968EA0112D23B4C1E3DFB9A702 /* CBUUID+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F819FB2CEAAE17C0A7D1773A8307810 /* CBUUID+Extend.m */; };
+		96C486B2502D8861A82A9A273F93F914 /* Pods-TextSwitch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7D519904AADE10A8956AF2056A91A1 /* Pods-TextSwitch_Example-dummy.m */; };
+		B9F2CEB44DAA4A17863D6875AC352468 /* ECExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42559ABF01BAC9E9E19F63A0C78C6D11 /* ECExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C42A1F6248F16C742C7AA004399A7FFC /* Pods-TextSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11ADCB158961AC8EFF81F0EEE5CFBCEC /* Pods-TextSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB45F7F243BE7F3A1807CC0EAE368D18 /* ECExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CECAEA1A386C026765612585B088BAD /* ECExtension-dummy.m */; };
+		D78986B84F0CFDA11A839002A464DB1F /* CBUUID+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F2E2AE6B9F89452AD06044D5F51C77 /* CBUUID+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA58F50466B677EEFAE251ECE204B050 /* UIColor+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 51246860CEF390D224EEB53225E79BEF /* UIColor+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE0BA138822F477E929F2A920737D69D /* ECExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF0F51B5743E4A582E57B88C993917C0 /* ECExtension.bundle */; };
+		E5C705A31171710517F1D426AA49B9DF /* TextSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDFA09ABD1A80858B1D45174323F9A0A /* TextSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8280A56EDE0244D3F993D497B45B9E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2578C4E3E5F8B7454DB169DC9BA2522 /* Foundation.framework */; };
+		E95158D32C286C1E74C8F4BE5EB5B61E /* Pods-TextSwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 357BA95EC9B189E738665313C13C5410 /* Pods-TextSwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDFA3A74F8EE0BD89E34BF5DBEECF65D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2578C4E3E5F8B7454DB169DC9BA2522 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		12137EB6CCF2A6AB04615F07 /* PBXContainerItemProxy */ = {
+		1700F5D76737B336B13BF6A843C4C930 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C4B8D4A5E351E3D2465F6228 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9565E8408B7359FBAD270085;
-			remoteInfo = "Pods-TextSwitch_Example-TextSwitch-TextSwitch";
+			remoteGlobalIDString = 5A27994C7BCEDD0A1BA70EA49668F29C;
+			remoteInfo = TextSwitch;
 		};
-		643700A2EB9FDF147A9EB578 /* PBXContainerItemProxy */ = {
+		2CBE59A966703C1C5DF169615B9E454F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C4B8D4A5E351E3D2465F6228 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E8DD572244F955C6CFA0E18D;
-			remoteInfo = "Pods-TextSwitch_Tests-TextSwitch-TextSwitch";
+			remoteGlobalIDString = 5A27994C7BCEDD0A1BA70EA49668F29C;
+			remoteInfo = TextSwitch;
 		};
-		AA2FD1EB0C16295FF6EF19FE /* PBXContainerItemProxy */ = {
+		B5C7379D885A7EBC262B176867757622 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C4B8D4A5E351E3D2465F6228 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C1278FDB4AF9EA965C3B268;
-			remoteInfo = "Pods-TextSwitch_Example-TextSwitch";
+			remoteGlobalIDString = 95CDE43A5F2022734B7540022DEA7553;
+			remoteInfo = "ECExtension-ECExtension";
 		};
-		F425E6A6978853D5B13AFE0A /* PBXContainerItemProxy */ = {
+		D3A9D92FD8B9FB069595A9E5488FB23C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C4B8D4A5E351E3D2465F6228 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 06DF9322F12F192AB20397F1;
-			remoteInfo = "Pods-TextSwitch_Tests-TextSwitch";
+			remoteGlobalIDString = 7B083AF31E75071D3CBF398D8692C01F;
+			remoteInfo = ECExtension;
+		};
+		E13E7C99370F059D199B35AEBFD6858B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1A8E618025F267DEE5DBFA772EEE023;
+			remoteInfo = "TextSwitch-TextSwitch";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		057CFB7C25635712DBF52986 /* Pods-TextSwitch_Example-TextSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextSwitch_Example-TextSwitch.xcconfig"; sourceTree = "<group>"; };
-		06748367BB5630886E1B1BEF /* Pods-TextSwitch_Example-TextSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TextSwitch_Example-TextSwitch.modulemap"; sourceTree = "<group>"; };
-		09F8863F251D5C32528F741B /* Pods-TextSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		10825BE472710A6AB9DC8BBE /* Pods-TextSwitch_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextSwitch_Tests-environment.h"; sourceTree = "<group>"; };
-		19937F139B7FA764FC72EF1A /* Pods-TextSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1CE004D05D4971FC7DEB352A /* Pods-TextSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
-		276E1E5FA830FA27F73D0E30 /* Pods_TextSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29ADA6F6951C61C5257259F7 /* TextSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C3B41C2741198B38BACDF99 /* TextSwitch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextSwitch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		387BA3F4E55572839A9577CC /* Pods-TextSwitch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextSwitch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3E30334AC6144ED709FF3162 /* Pods-TextSwitch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TextSwitch_Example.modulemap"; sourceTree = "<group>"; };
-		40F6FF00A21DA6A92F11F6F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4761C66A4C41F8B52C268872 /* Pods-TextSwitch_Tests-TextSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-TextSwitch_Tests-TextSwitch-dummy.m"; path = "../Pods-TextSwitch_Tests-TextSwitch/Pods-TextSwitch_Tests-TextSwitch-dummy.m"; sourceTree = "<group>"; };
-		4A6A7F9A0E233FE21183A2FD /* Pods-TextSwitch_Tests-TextSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TextSwitch_Tests-TextSwitch-prefix.pch"; path = "../Pods-TextSwitch_Tests-TextSwitch/Pods-TextSwitch_Tests-TextSwitch-prefix.pch"; sourceTree = "<group>"; };
-		4BF50E50BD00DE9A43E172F8 /* Pods-TextSwitch_Example-TextSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextSwitch_Example-TextSwitch-prefix.pch"; sourceTree = "<group>"; };
-		4C44E4AE3B5B132A57084380 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CD31F5AD8FAD895EB098265 /* Pods-TextSwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextSwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5E3DE94704877BFD92F7408D /* Pods-TextSwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextSwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5E96DE06DBD22B98FA04FE5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		616C4A561BBEEAA10D0F8C2D /* TextSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TextSwitch.m; sourceTree = "<group>"; };
-		63389E9BA2EEFCED2B8A7C46 /* Pods-TextSwitch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TextSwitch_Tests.modulemap"; sourceTree = "<group>"; };
-		6DE86FAEA48BF64F3A52CF2E /* Pods-TextSwitch_Example-TextSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextSwitch_Example-TextSwitch-umbrella.h"; sourceTree = "<group>"; };
-		73E9D1C6852606630C9E4D28 /* Pods-TextSwitch_Example-TextSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextSwitch_Example-TextSwitch-dummy.m"; sourceTree = "<group>"; };
-		7E61934A09286731B589BBD0 /* Pods-TextSwitch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextSwitch_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		856E44F151CF6B237C3D0847 /* Pods-TextSwitch_Tests-TextSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-TextSwitch_Tests-TextSwitch.modulemap"; path = "../Pods-TextSwitch_Tests-TextSwitch/Pods-TextSwitch_Tests-TextSwitch.modulemap"; sourceTree = "<group>"; };
-		8645F4371A19BA0E7BF62B55 /* Pods-TextSwitch_Tests-TextSwitch-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextSwitch_Tests-TextSwitch-Private.xcconfig"; path = "../Pods-TextSwitch_Tests-TextSwitch/Pods-TextSwitch_Tests-TextSwitch-Private.xcconfig"; sourceTree = "<group>"; };
-		872036AF0D49B4190BE56978 /* Pods-TextSwitch_Tests-TextSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TextSwitch_Tests-TextSwitch-umbrella.h"; path = "../Pods-TextSwitch_Tests-TextSwitch/Pods-TextSwitch_Tests-TextSwitch-umbrella.h"; sourceTree = "<group>"; };
-		94B34921D1F0AE3F3FB6D7B1 /* Pods-TextSwitch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextSwitch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A275088E2E693BBBA1B7F3EC /* Pods-TextSwitch_Example-TextSwitch-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextSwitch_Example-TextSwitch-Private.xcconfig"; sourceTree = "<group>"; };
-		A967C7580A6947677F1A2F80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-TextSwitch_Tests-TextSwitch/Info.plist"; sourceTree = "<group>"; };
-		AA139D4A8C253FF34A6B1B33 /* Pods-TextSwitch_Tests-TextSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextSwitch_Tests-TextSwitch.xcconfig"; path = "../Pods-TextSwitch_Tests-TextSwitch/Pods-TextSwitch_Tests-TextSwitch.xcconfig"; sourceTree = "<group>"; };
-		AAC69A31633CC3A99173E854 /* TextSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TextSwitch.h; sourceTree = "<group>"; };
-		B1AEE71E0B917EED63874016 /* Pods_TextSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B78B261C641CD96CC132583D /* Pods-TextSwitch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextSwitch_Tests-resources.sh"; sourceTree = "<group>"; };
-		BFE0CF4D4B727B1411596E30 /* Pods-TextSwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextSwitch_Tests-dummy.m"; sourceTree = "<group>"; };
-		CC7B6F059BCE068013F6C5AF /* Pods-TextSwitch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextSwitch_Example-dummy.m"; sourceTree = "<group>"; };
-		D238B19D917B94D6C171A6C3 /* TextSwitch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextSwitch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D83988F2413DD89A6CDCE743 /* Pods-TextSwitch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextSwitch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DBF63B016DF58DE3E48A4F2A /* Pods-TextSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E4E167ADA95D068E8CF6D23D /* Pods-TextSwitch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextSwitch_Example-resources.sh"; sourceTree = "<group>"; };
-		E5ACC3BFD1DF653C61FE2C3C /* Pods-TextSwitch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextSwitch_Example-umbrella.h"; sourceTree = "<group>"; };
-		EFCAA8A10A3D468962FE723A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F2942A8772199B0C97BCACF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F35ABD8E0C6089664E22F434 /* TextSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F569366AC8CD73D845F0F456 /* Pods-TextSwitch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextSwitch_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F77D07520916E64A9D16A765 /* Pods-TextSwitch_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextSwitch_Example-environment.h"; sourceTree = "<group>"; };
+		02D5332003470F005B84316663C05120 /* Pods-TextSwitch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextSwitch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11ADCB158961AC8EFF81F0EEE5CFBCEC /* Pods-TextSwitch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextSwitch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		19A01A9FA4B122FB2436C0E6F9410F14 /* UIView+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extend.h"; path = "Pod/Classes/UIView+Extend.h"; sourceTree = "<group>"; };
+		21A54372C05C493580B5438FF0AF35DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A993C34F8DFC4AE0B6D7797186AD4E /* Pods-TextSwitch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TextSwitch_Tests.modulemap"; sourceTree = "<group>"; };
+		357BA95EC9B189E738665313C13C5410 /* Pods-TextSwitch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextSwitch_Example-umbrella.h"; sourceTree = "<group>"; };
+		35F2E2AE6B9F89452AD06044D5F51C77 /* CBUUID+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBUUID+Extend.h"; path = "Pod/Classes/CBUUID+Extend.h"; sourceTree = "<group>"; };
+		3B1588B9C9E3DB96B7FD75F95F6623A4 /* Pods-TextSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		42559ABF01BAC9E9E19F63A0C78C6D11 /* ECExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECExtension-umbrella.h"; sourceTree = "<group>"; };
+		48A78582E91F54C4F1D6F1B0197EC64E /* TextSwitch-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TextSwitch-Private.xcconfig"; sourceTree = "<group>"; };
+		4BC2BF1BE9F87202F025E281509F70DA /* Pods-TextSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4E965F9E945BB50067BF053D2FB3065C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51246860CEF390D224EEB53225E79BEF /* UIColor+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extend.h"; path = "Pod/Classes/UIColor+Extend.h"; sourceTree = "<group>"; };
+		52A0B64C9C50FBAA7BE9121433E825B0 /* TextSwitch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextSwitch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		54690096A1753AC383F03D8D89A88026 /* ECExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ECExtension.modulemap; sourceTree = "<group>"; };
+		54BB49C7304148E922E3D7CF16AE89D2 /* TextSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextSwitch-prefix.pch"; sourceTree = "<group>"; };
+		5BE87C9B97075C317A7A44CB0C6CFB96 /* Pods-TextSwitch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextSwitch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5CECAEA1A386C026765612585B088BAD /* ECExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECExtension-dummy.m"; sourceTree = "<group>"; };
+		66F149BECC9E0AED1624A09B6A5C4C56 /* ECExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECExtension-prefix.pch"; sourceTree = "<group>"; };
+		6772E2DC2467A1450D5CF0478EB91D39 /* UIColor+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extend.m"; path = "Pod/Classes/UIColor+Extend.m"; sourceTree = "<group>"; };
+		6F0055754BD673DEB7BE41BF22C3F249 /* ECExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECExtension.h; path = Pod/Classes/ECExtension.h; sourceTree = "<group>"; };
+		6F82173627F87DA94798AF97C95DA13A /* TextSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TextSwitch.h; sourceTree = "<group>"; };
+		71EE9D2C98D8618CEE651A5D05CAACCC /* ECExtension-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ECExtension-Private.xcconfig"; sourceTree = "<group>"; };
+		7527DC9451E696B0429187079298935A /* TextSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7667E07AC44D488975DD519D209D2CF0 /* Pods-TextSwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextSwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
+		77BFDABC009BF601559563CC10D91C2D /* ECExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECExtension.xcconfig; sourceTree = "<group>"; };
+		789732C22B0A8E3B2E273B01840445E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF9AB306F4C0133A9F41A10D3B48D24 /* Pods-TextSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DB6C2E071545941CC139452A0FBC3B3 /* TextSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextSwitch.xcconfig; sourceTree = "<group>"; };
+		8402BE02B163E5D45FC970AC2DBA2989 /* UIView+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extend.m"; path = "Pod/Classes/UIView+Extend.m"; sourceTree = "<group>"; };
+		86031D36544A335D010CA04147EBE71D /* Pods-TextSwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextSwitch_Tests-dummy.m"; sourceTree = "<group>"; };
+		8E1261BD3AF4BBCAADD8C8BE19B3C795 /* Pods-TextSwitch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextSwitch_Example-resources.sh"; sourceTree = "<group>"; };
+		8F7D84D228ADA0314CD56D08B9475461 /* UIImage+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extend.m"; path = "Pod/Classes/UIImage+Extend.m"; sourceTree = "<group>"; };
+		8F819FB2CEAAE17C0A7D1773A8307810 /* CBUUID+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBUUID+Extend.m"; path = "Pod/Classes/CBUUID+Extend.m"; sourceTree = "<group>"; };
+		9142E826951680EE56B3FAAA4093018E /* Pods-TextSwitch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TextSwitch_Example.modulemap"; sourceTree = "<group>"; };
+		91CBE06833EE216817F71997DC5D4AD1 /* Pods_TextSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FC4703CE14BE0BE56F663BC8E57E6A /* UIImage+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extend.h"; path = "Pod/Classes/UIImage+Extend.h"; sourceTree = "<group>"; };
+		B1907637D0E72AAE9DAB188D5BA334AA /* Pods_TextSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B221C943CFF402B8075CD2CD0BAA79AE /* ECExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2578C4E3E5F8B7454DB169DC9BA2522 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB752E9AE3563B181F1649A867DDCB4F /* TextSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextSwitch-dummy.m"; sourceTree = "<group>"; };
+		BEFB60770982092FF8F82C2B49FDEA50 /* TextSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TextSwitch.modulemap; sourceTree = "<group>"; };
+		C8DE7C8ADAE6EAE2BCDE927F8DEC9619 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3B33C660D7ECA065D409EF6773E67F /* TextSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TextSwitch.m; sourceTree = "<group>"; };
+		CE7D519904AADE10A8956AF2056A91A1 /* Pods-TextSwitch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextSwitch_Example-dummy.m"; sourceTree = "<group>"; };
+		D0161214D3344A8EF21202AFB37EEBEC /* Pods-TextSwitch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextSwitch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0BBD8B56D56A28F18D6FD141CE64597 /* Pods-TextSwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextSwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF0F51B5743E4A582E57B88C993917C0 /* ECExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF0FE3DC31F179BD132ABC5EF4C76AA /* Pods-TextSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EDCD214B9D0298328AB0566130969AC4 /* Pods-TextSwitch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextSwitch_Tests-resources.sh"; sourceTree = "<group>"; };
+		EDFA09ABD1A80858B1D45174323F9A0A /* TextSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextSwitch-umbrella.h"; sourceTree = "<group>"; };
+		FD277E7297419C6808694CE9CC830326 /* Pods-TextSwitch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextSwitch_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E37DEC1D0F1E651943F122F /* Frameworks */ = {
+		039576F6776F8B37437412FBA51B8850 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC7BA00EBF3073E7E10343C /* Foundation.framework in Frameworks */,
+				662A8F918BF874DD83FF82C0DE5FD6D5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		505FA7A275AE2987B331AC48 /* Frameworks */ = {
+		3EFE4BD4C600FFE38FCE236BA07FB022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFA3A74F8EE0BD89E34BF5DBEECF65D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D6BB890EA9CE678C8666CC2F795033 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		749E7DDF7D81BF16F6F68E06 /* Frameworks */ = {
+		95F9092D40C2E4981D0B0EDDAEA850E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75E5520609B96A954197480C /* Frameworks */ = {
+		E096B6EB05CF86AF54D2335842E9142C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB5B41F77053680582C1C122 /* Foundation.framework in Frameworks */,
+				6A0E2817355A8D6BAE9141FC3CDBAA73 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AC9453318C06CB7510C9E97 /* Frameworks */ = {
+		ED6E0FC24F4A04BA6DCB23E42B415B78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F897A317CC4599C077FEF88 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A369AF32E2039F82C6E07816 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B82BF7DFB326F493FDEA37F0 /* Foundation.framework in Frameworks */,
+				E8280A56EDE0244D3F993D497B45B9E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0826FF0CCEFB754397739523 /* Pods-TextSwitch_Tests */ = {
+		0F3372E4C527CD81A556CFF7CA40373F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				40F6FF00A21DA6A92F11F6F4 /* Info.plist */,
-				63389E9BA2EEFCED2B8A7C46 /* Pods-TextSwitch_Tests.modulemap */,
-				D83988F2413DD89A6CDCE743 /* Pods-TextSwitch_Tests-acknowledgements.markdown */,
-				4CD31F5AD8FAD895EB098265 /* Pods-TextSwitch_Tests-acknowledgements.plist */,
-				BFE0CF4D4B727B1411596E30 /* Pods-TextSwitch_Tests-dummy.m */,
-				10825BE472710A6AB9DC8BBE /* Pods-TextSwitch_Tests-environment.h */,
-				7E61934A09286731B589BBD0 /* Pods-TextSwitch_Tests-frameworks.sh */,
-				B78B261C641CD96CC132583D /* Pods-TextSwitch_Tests-resources.sh */,
-				F569366AC8CD73D845F0F456 /* Pods-TextSwitch_Tests-umbrella.h */,
-				DBF63B016DF58DE3E48A4F2A /* Pods-TextSwitch_Tests.debug.xcconfig */,
-				09F8863F251D5C32528F741B /* Pods-TextSwitch_Tests.release.xcconfig */,
-			);
-			name = "Pods-TextSwitch_Tests";
-			path = "Target Support Files/Pods-TextSwitch_Tests";
-			sourceTree = "<group>";
-		};
-		08FF4D27A485AF5F50A2D6BA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F3CDA0D54EAFDCF7F3B82AB2 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0FE70879582FA57969A40AD3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D2169D0C50AE2EAC92BFB5AD /* TextSwitch */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1253E4BBB9D6072C9579D766 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				276E1E5FA830FA27F73D0E30 /* Pods_TextSwitch_Example.framework */,
-				B1AEE71E0B917EED63874016 /* Pods_TextSwitch_Tests.framework */,
-				D238B19D917B94D6C171A6C3 /* TextSwitch.bundle */,
-				2C3B41C2741198B38BACDF99 /* TextSwitch.bundle */,
-				29ADA6F6951C61C5257259F7 /* TextSwitch.framework */,
-				F35ABD8E0C6089664E22F434 /* TextSwitch.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1B05D8FD2DF8E94FA3DDCAD0 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AAC69A31633CC3A99173E854 /* TextSwitch.h */,
-				616C4A561BBEEAA10D0F8C2D /* TextSwitch.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		495A7A49D969A693680B9046 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C44E4AE3B5B132A57084380 /* Info.plist */,
-				A967C7580A6947677F1A2F80 /* Info.plist */,
-				06748367BB5630886E1B1BEF /* Pods-TextSwitch_Example-TextSwitch.modulemap */,
-				057CFB7C25635712DBF52986 /* Pods-TextSwitch_Example-TextSwitch.xcconfig */,
-				A275088E2E693BBBA1B7F3EC /* Pods-TextSwitch_Example-TextSwitch-Private.xcconfig */,
-				73E9D1C6852606630C9E4D28 /* Pods-TextSwitch_Example-TextSwitch-dummy.m */,
-				4BF50E50BD00DE9A43E172F8 /* Pods-TextSwitch_Example-TextSwitch-prefix.pch */,
-				6DE86FAEA48BF64F3A52CF2E /* Pods-TextSwitch_Example-TextSwitch-umbrella.h */,
-				856E44F151CF6B237C3D0847 /* Pods-TextSwitch_Tests-TextSwitch.modulemap */,
-				AA139D4A8C253FF34A6B1B33 /* Pods-TextSwitch_Tests-TextSwitch.xcconfig */,
-				8645F4371A19BA0E7BF62B55 /* Pods-TextSwitch_Tests-TextSwitch-Private.xcconfig */,
-				4761C66A4C41F8B52C268872 /* Pods-TextSwitch_Tests-TextSwitch-dummy.m */,
-				4A6A7F9A0E233FE21183A2FD /* Pods-TextSwitch_Tests-TextSwitch-prefix.pch */,
-				872036AF0D49B4190BE56978 /* Pods-TextSwitch_Tests-TextSwitch-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-TextSwitch_Example-TextSwitch";
-			sourceTree = "<group>";
-		};
-		92D482ADF30497F2FDB413E5 = {
-			isa = PBXGroup;
-			children = (
-				EFCAA8A10A3D468962FE723A /* Podfile */,
-				0FE70879582FA57969A40AD3 /* Development Pods */,
-				08FF4D27A485AF5F50A2D6BA /* Frameworks */,
-				1253E4BBB9D6072C9579D766 /* Products */,
-				9ECD09E093A7A5C94458B0B2 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		9ECD09E093A7A5C94458B0B2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D0400C2405BF9E014725B3C1 /* Pods-TextSwitch_Example */,
-				0826FF0CCEFB754397739523 /* Pods-TextSwitch_Tests */,
+				27BFFC02C4C6404E58B974F1739B3020 /* Pods-TextSwitch_Example */,
+				49010C710405316F79CFC5DAE5E20DB3 /* Pods-TextSwitch_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D0400C2405BF9E014725B3C1 /* Pods-TextSwitch_Example */ = {
+		15B7315501D7BE0E10EC2497927F4A0A /* TextSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				F2942A8772199B0C97BCACF5 /* Info.plist */,
-				3E30334AC6144ED709FF3162 /* Pods-TextSwitch_Example.modulemap */,
-				387BA3F4E55572839A9577CC /* Pods-TextSwitch_Example-acknowledgements.markdown */,
-				94B34921D1F0AE3F3FB6D7B1 /* Pods-TextSwitch_Example-acknowledgements.plist */,
-				CC7B6F059BCE068013F6C5AF /* Pods-TextSwitch_Example-dummy.m */,
-				F77D07520916E64A9D16A765 /* Pods-TextSwitch_Example-environment.h */,
-				5E3DE94704877BFD92F7408D /* Pods-TextSwitch_Example-frameworks.sh */,
-				E4E167ADA95D068E8CF6D23D /* Pods-TextSwitch_Example-resources.sh */,
-				E5ACC3BFD1DF653C61FE2C3C /* Pods-TextSwitch_Example-umbrella.h */,
-				19937F139B7FA764FC72EF1A /* Pods-TextSwitch_Example.debug.xcconfig */,
-				1CE004D05D4971FC7DEB352A /* Pods-TextSwitch_Example.release.xcconfig */,
-			);
-			name = "Pods-TextSwitch_Example";
-			path = "Target Support Files/Pods-TextSwitch_Example";
-			sourceTree = "<group>";
-		};
-		D2169D0C50AE2EAC92BFB5AD /* TextSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				DA2B0B523126257013DD738D /* Pod */,
-				495A7A49D969A693680B9046 /* Support Files */,
+				98BEF411488F569263C09ED7CF2FA2BE /* Pod */,
+				396AA7B94B19D17E3F2DBAC2389F2246 /* Support Files */,
 			);
 			name = TextSwitch;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		DA2B0B523126257013DD738D /* Pod */ = {
+		1D4E1D345D92CBC4403401840B4D7881 /* ECExtension */ = {
 			isa = PBXGroup;
 			children = (
-				1B05D8FD2DF8E94FA3DDCAD0 /* Classes */,
+				35F2E2AE6B9F89452AD06044D5F51C77 /* CBUUID+Extend.h */,
+				8F819FB2CEAAE17C0A7D1773A8307810 /* CBUUID+Extend.m */,
+				6F0055754BD673DEB7BE41BF22C3F249 /* ECExtension.h */,
+				51246860CEF390D224EEB53225E79BEF /* UIColor+Extend.h */,
+				6772E2DC2467A1450D5CF0478EB91D39 /* UIColor+Extend.m */,
+				92FC4703CE14BE0BE56F663BC8E57E6A /* UIImage+Extend.h */,
+				8F7D84D228ADA0314CD56D08B9475461 /* UIImage+Extend.m */,
+				19A01A9FA4B122FB2436C0E6F9410F14 /* UIView+Extend.h */,
+				8402BE02B163E5D45FC970AC2DBA2989 /* UIView+Extend.m */,
+				B92507922F222C58B268C19BEED39D50 /* Support Files */,
+			);
+			path = ECExtension;
+			sourceTree = "<group>";
+		};
+		27BFFC02C4C6404E58B974F1739B3020 /* Pods-TextSwitch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				21A54372C05C493580B5438FF0AF35DF /* Info.plist */,
+				9142E826951680EE56B3FAAA4093018E /* Pods-TextSwitch_Example.modulemap */,
+				D0161214D3344A8EF21202AFB37EEBEC /* Pods-TextSwitch_Example-acknowledgements.markdown */,
+				5BE87C9B97075C317A7A44CB0C6CFB96 /* Pods-TextSwitch_Example-acknowledgements.plist */,
+				CE7D519904AADE10A8956AF2056A91A1 /* Pods-TextSwitch_Example-dummy.m */,
+				7667E07AC44D488975DD519D209D2CF0 /* Pods-TextSwitch_Example-frameworks.sh */,
+				8E1261BD3AF4BBCAADD8C8BE19B3C795 /* Pods-TextSwitch_Example-resources.sh */,
+				357BA95EC9B189E738665313C13C5410 /* Pods-TextSwitch_Example-umbrella.h */,
+				3B1588B9C9E3DB96B7FD75F95F6623A4 /* Pods-TextSwitch_Example.debug.xcconfig */,
+				EBF0FE3DC31F179BD132ABC5EF4C76AA /* Pods-TextSwitch_Example.release.xcconfig */,
+			);
+			name = "Pods-TextSwitch_Example";
+			path = "Target Support Files/Pods-TextSwitch_Example";
+			sourceTree = "<group>";
+		};
+		396AA7B94B19D17E3F2DBAC2389F2246 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE7C8ADAE6EAE2BCDE927F8DEC9619 /* Info.plist */,
+				BEFB60770982092FF8F82C2B49FDEA50 /* TextSwitch.modulemap */,
+				7DB6C2E071545941CC139452A0FBC3B3 /* TextSwitch.xcconfig */,
+				48A78582E91F54C4F1D6F1B0197EC64E /* TextSwitch-Private.xcconfig */,
+				BB752E9AE3563B181F1649A867DDCB4F /* TextSwitch-dummy.m */,
+				54BB49C7304148E922E3D7CF16AE89D2 /* TextSwitch-prefix.pch */,
+				EDFA09ABD1A80858B1D45174323F9A0A /* TextSwitch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TextSwitch";
+			sourceTree = "<group>";
+		};
+		49010C710405316F79CFC5DAE5E20DB3 /* Pods-TextSwitch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				789732C22B0A8E3B2E273B01840445E1 /* Info.plist */,
+				29A993C34F8DFC4AE0B6D7797186AD4E /* Pods-TextSwitch_Tests.modulemap */,
+				02D5332003470F005B84316663C05120 /* Pods-TextSwitch_Tests-acknowledgements.markdown */,
+				D0BBD8B56D56A28F18D6FD141CE64597 /* Pods-TextSwitch_Tests-acknowledgements.plist */,
+				86031D36544A335D010CA04147EBE71D /* Pods-TextSwitch_Tests-dummy.m */,
+				FD277E7297419C6808694CE9CC830326 /* Pods-TextSwitch_Tests-frameworks.sh */,
+				EDCD214B9D0298328AB0566130969AC4 /* Pods-TextSwitch_Tests-resources.sh */,
+				11ADCB158961AC8EFF81F0EEE5CFBCEC /* Pods-TextSwitch_Tests-umbrella.h */,
+				7BF9AB306F4C0133A9F41A10D3B48D24 /* Pods-TextSwitch_Tests.debug.xcconfig */,
+				4BC2BF1BE9F87202F025E281509F70DA /* Pods-TextSwitch_Tests.release.xcconfig */,
+			);
+			name = "Pods-TextSwitch_Tests";
+			path = "Target Support Files/Pods-TextSwitch_Tests";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B2578C4E3E5F8B7454DB169DC9BA2522 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		629F0B9FE0E7928983F2B1134BBDF299 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F82173627F87DA94798AF97C95DA13A /* TextSwitch.h */,
+				CD3B33C660D7ECA065D409EF6773E67F /* TextSwitch.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				A9B8FA8892E42517290167B977E9ED69 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FB94308130B4EB4D3DBFCEC210712E89 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				0F3372E4C527CD81A556CFF7CA40373F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98BEF411488F569263C09ED7CF2FA2BE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				629F0B9FE0E7928983F2B1134BBDF299 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		F3CDA0D54EAFDCF7F3B82AB2 /* iOS */ = {
+		A9B8FA8892E42517290167B977E9ED69 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E96DE06DBD22B98FA04FE5F /* Foundation.framework */,
+				15B7315501D7BE0E10EC2497927F4A0A /* TextSwitch */,
 			);
-			name = iOS;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B92507922F222C58B268C19BEED39D50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54690096A1753AC383F03D8D89A88026 /* ECExtension.modulemap */,
+				77BFDABC009BF601559563CC10D91C2D /* ECExtension.xcconfig */,
+				71EE9D2C98D8618CEE651A5D05CAACCC /* ECExtension-Private.xcconfig */,
+				5CECAEA1A386C026765612585B088BAD /* ECExtension-dummy.m */,
+				66F149BECC9E0AED1624A09B6A5C4C56 /* ECExtension-prefix.pch */,
+				42559ABF01BAC9E9E19F63A0C78C6D11 /* ECExtension-umbrella.h */,
+				4E965F9E945BB50067BF053D2FB3065C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ECExtension";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F51B5743E4A582E57B88C993917C0 /* ECExtension.bundle */,
+				B221C943CFF402B8075CD2CD0BAA79AE /* ECExtension.framework */,
+				91CBE06833EE216817F71997DC5D4AD1 /* Pods_TextSwitch_Example.framework */,
+				B1907637D0E72AAE9DAB188D5BA334AA /* Pods_TextSwitch_Tests.framework */,
+				52A0B64C9C50FBAA7BE9121433E825B0 /* TextSwitch.bundle */,
+				7527DC9451E696B0429187079298935A /* TextSwitch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB94308130B4EB4D3DBFCEC210712E89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D4E1D345D92CBC4403401840B4D7881 /* ECExtension */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4CC0C32048B5E7066E897D18 /* Headers */ = {
+		12127233BAB20CC01824B88783186917 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D936CB808B57789C03B5D1F /* Pods-TextSwitch_Example-TextSwitch-umbrella.h in Headers */,
-				6D1217FDF3C1D71668A4B046 /* TextSwitch.h in Headers */,
+				E95158D32C286C1E74C8F4BE5EB5B61E /* Pods-TextSwitch_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72A8AE516E3AC295BE1C2058 /* Headers */ = {
+		84108EBBD1148F6F5EB0A60EEA54AAA7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600D9CFFD70BDB4665D4636B /* Pods-TextSwitch_Example-umbrella.h in Headers */,
+				C42A1F6248F16C742C7AA004399A7FFC /* Pods-TextSwitch_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8A9F43C3CA8042F06EF2A4D /* Headers */ = {
+		B7ADDC0F16AE5F55789D31807F2E3C3D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C8E8042920A2CCC1EE15B51 /* Pods-TextSwitch_Tests-umbrella.h in Headers */,
+				D78986B84F0CFDA11A839002A464DB1F /* CBUUID+Extend.h in Headers */,
+				B9F2CEB44DAA4A17863D6875AC352468 /* ECExtension-umbrella.h in Headers */,
+				91D732EABA62F3AE88043C65A0833AB0 /* ECExtension.h in Headers */,
+				DA58F50466B677EEFAE251ECE204B050 /* UIColor+Extend.h in Headers */,
+				622D5E69EC98A89EDC4B39D3C44E151E /* UIImage+Extend.h in Headers */,
+				2095443864DDDDC30711CC3632D45574 /* UIView+Extend.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA940522C49FD930B366DAD8 /* Headers */ = {
+		DA532F7B619284883B2CC595587C085E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D569065C2A03B79EADC7C54 /* Pods-TextSwitch_Tests-TextSwitch-umbrella.h in Headers */,
-				3076E554D96F35C3A171DE44 /* TextSwitch.h in Headers */,
+				E5C705A31171710517F1D426AA49B9DF /* TextSwitch-umbrella.h in Headers */,
+				1BCAF6BC4E42ACFB3B2DDFF72EABD592 /* TextSwitch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		06DF9322F12F192AB20397F1 /* Pods-TextSwitch_Tests-TextSwitch */ = {
+		49A922385F2B501FF3F19A8A18F87B35 /* Pods-TextSwitch_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB5476FE150D94C7EA11FD17 /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Tests-TextSwitch" */;
+			buildConfigurationList = EA5DF73F9E170261A91C8B2D0B144603 /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Example" */;
 			buildPhases = (
-				2F6C1DA0850AD35C549FFD08 /* Sources */,
-				1E37DEC1D0F1E651943F122F /* Frameworks */,
-				2628D1129F9BB497FD7408CD /* Resources */,
-				DA940522C49FD930B366DAD8 /* Headers */,
+				3744E57C812AD2E1A23265CB530611A0 /* Sources */,
+				ED6E0FC24F4A04BA6DCB23E42B415B78 /* Frameworks */,
+				12127233BAB20CC01824B88783186917 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				250E31808104C3562972ED81 /* PBXTargetDependency */,
-			);
-			name = "Pods-TextSwitch_Tests-TextSwitch";
-			productName = "Pods-TextSwitch_Tests-TextSwitch";
-			productReference = 29ADA6F6951C61C5257259F7 /* TextSwitch.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6C1278FDB4AF9EA965C3B268 /* Pods-TextSwitch_Example-TextSwitch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC662305CEA0B85B9CA32C2B /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Example-TextSwitch" */;
-			buildPhases = (
-				B82188B6139DD65412E43C97 /* Sources */,
-				8AC9453318C06CB7510C9E97 /* Frameworks */,
-				4385738244A625D7304F235A /* Resources */,
-				4CC0C32048B5E7066E897D18 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BDFD47CC51ABF4B6A0D78887 /* PBXTargetDependency */,
-			);
-			name = "Pods-TextSwitch_Example-TextSwitch";
-			productName = "Pods-TextSwitch_Example-TextSwitch";
-			productReference = F35ABD8E0C6089664E22F434 /* TextSwitch.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7B60A41B7FB0392DE4F2F561 /* Pods-TextSwitch_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E7FC6D3574F4D05A6CF86B2 /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Example" */;
-			buildPhases = (
-				12C5D2C0C7E4921C80E969B8 /* Sources */,
-				75E5520609B96A954197480C /* Frameworks */,
-				72A8AE516E3AC295BE1C2058 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50101F57667034E191AA31ED /* PBXTargetDependency */,
+				E2716332D069710C10B4153EE05CEB5F /* PBXTargetDependency */,
+				E302998F9C54323701FBF622EB76A45F /* PBXTargetDependency */,
 			);
 			name = "Pods-TextSwitch_Example";
 			productName = "Pods-TextSwitch_Example";
-			productReference = 276E1E5FA830FA27F73D0E30 /* Pods_TextSwitch_Example.framework */;
+			productReference = 91CBE06833EE216817F71997DC5D4AD1 /* Pods_TextSwitch_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9565E8408B7359FBAD270085 /* Pods-TextSwitch_Example-TextSwitch-TextSwitch */ = {
+		5A27994C7BCEDD0A1BA70EA49668F29C /* TextSwitch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5295815C0D6FF7E16F2C47B4 /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Example-TextSwitch-TextSwitch" */;
+			buildConfigurationList = 402F55439728490A26492B67BF6089F9 /* Build configuration list for PBXNativeTarget "TextSwitch" */;
 			buildPhases = (
-				7668A125265392749347C016 /* Sources */,
-				749E7DDF7D81BF16F6F68E06 /* Frameworks */,
-				51A638C1E546673A69F7EDD6 /* Resources */,
+				FE0CBDB1027DB6BD2B215975677DA819 /* Sources */,
+				E096B6EB05CF86AF54D2335842E9142C /* Frameworks */,
+				8A6911978FC2E492AE08D4CB19E753C3 /* Resources */,
+				DA532F7B619284883B2CC595587C085E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9473D60ECC0C83D53DCB65BC4A531653 /* PBXTargetDependency */,
+			);
+			name = TextSwitch;
+			productName = TextSwitch;
+			productReference = 7527DC9451E696B0429187079298935A /* TextSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B083AF31E75071D3CBF398D8692C01F /* ECExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E34F95F167C5CE719BDF96C29046BA /* Build configuration list for PBXNativeTarget "ECExtension" */;
+			buildPhases = (
+				6E22D6AD61AE4510BB587FD088F9780B /* Sources */,
+				039576F6776F8B37437412FBA51B8850 /* Frameworks */,
+				4AE3AD460C245AC4FC05BB4A5A977DD7 /* Resources */,
+				B7ADDC0F16AE5F55789D31807F2E3C3D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9FC841B9FD9B7B621B72B439531A018 /* PBXTargetDependency */,
+			);
+			name = ECExtension;
+			productName = ECExtension;
+			productReference = B221C943CFF402B8075CD2CD0BAA79AE /* ECExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95CDE43A5F2022734B7540022DEA7553 /* ECExtension-ECExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E3223C96EB45482D68B049B189CC420 /* Build configuration list for PBXNativeTarget "ECExtension-ECExtension" */;
+			buildPhases = (
+				5DB58CBCBCCDF01E0B4883A4FD6F5E99 /* Sources */,
+				87D6BB890EA9CE678C8666CC2F795033 /* Frameworks */,
+				15A2EE6A86850EC53BDB27192FE44701 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-TextSwitch_Example-TextSwitch-TextSwitch";
-			productName = "Pods-TextSwitch_Example-TextSwitch-TextSwitch";
-			productReference = D238B19D917B94D6C171A6C3 /* TextSwitch.bundle */;
+			name = "ECExtension-ECExtension";
+			productName = "ECExtension-ECExtension";
+			productReference = DF0F51B5743E4A582E57B88C993917C0 /* ECExtension.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		C66DBA7F21C4CF3E9FE4379E /* Pods-TextSwitch_Tests */ = {
+		A0F89A4B786D55855F44973EB0F715E2 /* Pods-TextSwitch_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBD28933406A718B40C9F228 /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Tests" */;
+			buildConfigurationList = F49F360C462D9E759C1C4E271870B00A /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Tests" */;
 			buildPhases = (
-				BF75B04064C93CBEA39C667F /* Sources */,
-				A369AF32E2039F82C6E07816 /* Frameworks */,
-				C8A9F43C3CA8042F06EF2A4D /* Headers */,
+				9D2C8CF361DF9975C8511750DB80F130 /* Sources */,
+				3EFE4BD4C600FFE38FCE236BA07FB022 /* Frameworks */,
+				84108EBBD1148F6F5EB0A60EEA54AAA7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0268719438579E1DC7B9716A /* PBXTargetDependency */,
+				70981A06A0FAC1E83B8C7D5699A45D15 /* PBXTargetDependency */,
 			);
 			name = "Pods-TextSwitch_Tests";
 			productName = "Pods-TextSwitch_Tests";
-			productReference = B1AEE71E0B917EED63874016 /* Pods_TextSwitch_Tests.framework */;
+			productReference = B1907637D0E72AAE9DAB188D5BA334AA /* Pods_TextSwitch_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E8DD572244F955C6CFA0E18D /* Pods-TextSwitch_Tests-TextSwitch-TextSwitch */ = {
+		B1A8E618025F267DEE5DBFA772EEE023 /* TextSwitch-TextSwitch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80CB8B7D435F4AB320C2032D /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Tests-TextSwitch-TextSwitch" */;
+			buildConfigurationList = 32D616C9961D07CB5EFF3A713EF253A0 /* Build configuration list for PBXNativeTarget "TextSwitch-TextSwitch" */;
 			buildPhases = (
-				4C37C812813C2A1BC4EC662A /* Sources */,
-				505FA7A275AE2987B331AC48 /* Frameworks */,
-				2B2BFA8AC075CF7EBEDFE1CE /* Resources */,
+				C19A7988094A757734866709075E5349 /* Sources */,
+				95F9092D40C2E4981D0B0EDDAEA850E1 /* Frameworks */,
+				B9898DE145CFF24246AE8E5EFFC8F361 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-TextSwitch_Tests-TextSwitch-TextSwitch";
-			productName = "Pods-TextSwitch_Tests-TextSwitch-TextSwitch";
-			productReference = 2C3B41C2741198B38BACDF99 /* TextSwitch.bundle */;
+			name = "TextSwitch-TextSwitch";
+			productName = "TextSwitch-TextSwitch";
+			productReference = 52A0B64C9C50FBAA7BE9121433E825B0 /* TextSwitch.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C4B8D4A5E351E3D2465F6228 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = DFF2D443EF835C2271B644D7 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 92D482ADF30497F2FDB413E5;
-			productRefGroup = 1253E4BBB9D6072C9579D766 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B60A41B7FB0392DE4F2F561 /* Pods-TextSwitch_Example */,
-				6C1278FDB4AF9EA965C3B268 /* Pods-TextSwitch_Example-TextSwitch */,
-				9565E8408B7359FBAD270085 /* Pods-TextSwitch_Example-TextSwitch-TextSwitch */,
-				C66DBA7F21C4CF3E9FE4379E /* Pods-TextSwitch_Tests */,
-				06DF9322F12F192AB20397F1 /* Pods-TextSwitch_Tests-TextSwitch */,
-				E8DD572244F955C6CFA0E18D /* Pods-TextSwitch_Tests-TextSwitch-TextSwitch */,
+				7B083AF31E75071D3CBF398D8692C01F /* ECExtension */,
+				95CDE43A5F2022734B7540022DEA7553 /* ECExtension-ECExtension */,
+				49A922385F2B501FF3F19A8A18F87B35 /* Pods-TextSwitch_Example */,
+				A0F89A4B786D55855F44973EB0F715E2 /* Pods-TextSwitch_Tests */,
+				5A27994C7BCEDD0A1BA70EA49668F29C /* TextSwitch */,
+				B1A8E618025F267DEE5DBFA772EEE023 /* TextSwitch-TextSwitch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2628D1129F9BB497FD7408CD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB748E9BEE3274E058088D54 /* TextSwitch.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B2BFA8AC075CF7EBEDFE1CE /* Resources */ = {
+		15A2EE6A86850EC53BDB27192FE44701 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4385738244A625D7304F235A /* Resources */ = {
+		4AE3AD460C245AC4FC05BB4A5A977DD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A36AF8E315F42C723D4EBAC /* TextSwitch.bundle in Resources */,
+				DE0BA138822F477E929F2A920737D69D /* ECExtension.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51A638C1E546673A69F7EDD6 /* Resources */ = {
+		8A6911978FC2E492AE08D4CB19E753C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DBAD52EFEB81D2F6D765FE09C5E8C5 /* TextSwitch.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9898DE145CFF24246AE8E5EFFC8F361 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -513,223 +572,140 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12C5D2C0C7E4921C80E969B8 /* Sources */ = {
+		3744E57C812AD2E1A23265CB530611A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF349F3BA9BB38E3C56460A /* Pods-TextSwitch_Example-dummy.m in Sources */,
+				96C486B2502D8861A82A9A273F93F914 /* Pods-TextSwitch_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F6C1DA0850AD35C549FFD08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80A2EE6CFF4537884E4FCE44 /* Pods-TextSwitch_Tests-TextSwitch-dummy.m in Sources */,
-				7DFB2626B1F7D22814D3FAE3 /* TextSwitch.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C37C812813C2A1BC4EC662A /* Sources */ = {
+		5DB58CBCBCCDF01E0B4883A4FD6F5E99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7668A125265392749347C016 /* Sources */ = {
+		6E22D6AD61AE4510BB587FD088F9780B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F66D968EA0112D23B4C1E3DFB9A702 /* CBUUID+Extend.m in Sources */,
+				CB45F7F243BE7F3A1807CC0EAE368D18 /* ECExtension-dummy.m in Sources */,
+				6689281C33FCAEAE8F1BECD1A29DAE05 /* UIColor+Extend.m in Sources */,
+				16C680BD838733383EEE4449AA64FDED /* UIImage+Extend.m in Sources */,
+				10D59C19250A545CD987FAE9713D96B4 /* UIView+Extend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2C8CF361DF9975C8511750DB80F130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1396223BD5C12191E4E5B5A2625840B9 /* Pods-TextSwitch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19A7988094A757734866709075E5349 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B82188B6139DD65412E43C97 /* Sources */ = {
+		FE0CBDB1027DB6BD2B215975677DA819 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EFE3BAC2B94C8CCC1E64089 /* Pods-TextSwitch_Example-TextSwitch-dummy.m in Sources */,
-				4D117503150D5A0779C2AEA1 /* TextSwitch.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF75B04064C93CBEA39C667F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3951049E2638D9368CA75276 /* Pods-TextSwitch_Tests-dummy.m in Sources */,
+				70D9198371FD2BB9C287794C6E7108A4 /* TextSwitch-dummy.m in Sources */,
+				7398851C32156EB48AD21B195ABC0C36 /* TextSwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0268719438579E1DC7B9716A /* PBXTargetDependency */ = {
+		70981A06A0FAC1E83B8C7D5699A45D15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-TextSwitch_Tests-TextSwitch";
-			target = 06DF9322F12F192AB20397F1 /* Pods-TextSwitch_Tests-TextSwitch */;
-			targetProxy = F425E6A6978853D5B13AFE0A /* PBXContainerItemProxy */;
+			name = TextSwitch;
+			target = 5A27994C7BCEDD0A1BA70EA49668F29C /* TextSwitch */;
+			targetProxy = 2CBE59A966703C1C5DF169615B9E454F /* PBXContainerItemProxy */;
 		};
-		250E31808104C3562972ED81 /* PBXTargetDependency */ = {
+		9473D60ECC0C83D53DCB65BC4A531653 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-TextSwitch_Tests-TextSwitch-TextSwitch";
-			target = E8DD572244F955C6CFA0E18D /* Pods-TextSwitch_Tests-TextSwitch-TextSwitch */;
-			targetProxy = 643700A2EB9FDF147A9EB578 /* PBXContainerItemProxy */;
+			name = "TextSwitch-TextSwitch";
+			target = B1A8E618025F267DEE5DBFA772EEE023 /* TextSwitch-TextSwitch */;
+			targetProxy = E13E7C99370F059D199B35AEBFD6858B /* PBXContainerItemProxy */;
 		};
-		50101F57667034E191AA31ED /* PBXTargetDependency */ = {
+		E2716332D069710C10B4153EE05CEB5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-TextSwitch_Example-TextSwitch";
-			target = 6C1278FDB4AF9EA965C3B268 /* Pods-TextSwitch_Example-TextSwitch */;
-			targetProxy = AA2FD1EB0C16295FF6EF19FE /* PBXContainerItemProxy */;
+			name = ECExtension;
+			target = 7B083AF31E75071D3CBF398D8692C01F /* ECExtension */;
+			targetProxy = D3A9D92FD8B9FB069595A9E5488FB23C /* PBXContainerItemProxy */;
 		};
-		BDFD47CC51ABF4B6A0D78887 /* PBXTargetDependency */ = {
+		E302998F9C54323701FBF622EB76A45F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-TextSwitch_Example-TextSwitch-TextSwitch";
-			target = 9565E8408B7359FBAD270085 /* Pods-TextSwitch_Example-TextSwitch-TextSwitch */;
-			targetProxy = 12137EB6CCF2A6AB04615F07 /* PBXContainerItemProxy */;
+			name = TextSwitch;
+			target = 5A27994C7BCEDD0A1BA70EA49668F29C /* TextSwitch */;
+			targetProxy = 1700F5D76737B336B13BF6A843C4C930 /* PBXContainerItemProxy */;
+		};
+		F9FC841B9FD9B7B621B72B439531A018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ECExtension-ECExtension";
+			target = 95CDE43A5F2022734B7540022DEA7553 /* ECExtension-ECExtension */;
+			targetProxy = B5C7379D885A7EBC262B176867757622 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11402AFCFEB0425F2628B025 /* Debug */ = {
+		001D69B30F2F3A5933F30B010C09F303 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8645F4371A19BA0E7BF62B55 /* Pods-TextSwitch_Tests-TextSwitch-Private.xcconfig */;
+			baseConfigurationReference = 71EE9D2C98D8618CEE651A5D05CAACCC /* ECExtension-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TextSwitch_Tests-TextSwitch/Pods-TextSwitch_Tests-TextSwitch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-TextSwitch_Tests-TextSwitch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TextSwitch_Tests-TextSwitch/Pods-TextSwitch_Tests-TextSwitch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TextSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2BA70369D1915BDBD65A49F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A275088E2E693BBBA1B7F3EC /* Pods-TextSwitch_Example-TextSwitch-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TextSwitch_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TextSwitch;
+				PRODUCT_NAME = ECExtension;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		3187D4D8ADA66476CD3383F1 /* Debug */ = {
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19937F139B7FA764FC72EF1A /* Pods-TextSwitch_Example.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TextSwitch_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TextSwitch_Example/Pods-TextSwitch_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_TextSwitch_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3769E7EFD216E329C819C07E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8645F4371A19BA0E7BF62B55 /* Pods-TextSwitch_Tests-TextSwitch-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TextSwitch_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TextSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		5D350B91F3E6214AA64A2D61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8645F4371A19BA0E7BF62B55 /* Pods-TextSwitch_Tests-TextSwitch-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TextSwitch_Tests-TextSwitch/Pods-TextSwitch_Tests-TextSwitch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-TextSwitch_Tests-TextSwitch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TextSwitch_Tests-TextSwitch/Pods-TextSwitch_Tests-TextSwitch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TextSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		7A4A6FA89F9D1B827FD48901 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09F8863F251D5C32528F741B /* Pods-TextSwitch_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TextSwitch_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TextSwitch_Tests/Pods-TextSwitch_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_TextSwitch_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7F7A20F48C1058D4BE4185FF /* Debug */ = {
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -768,9 +744,182 @@
 			};
 			name = Debug;
 		};
-		8A93BB5861732196AD94B32D /* Debug */ = {
+		0F43E72915B94CF9A4D9B3465E495E3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBF63B016DF58DE3E48A4F2A /* Pods-TextSwitch_Tests.debug.xcconfig */;
+			baseConfigurationReference = 71EE9D2C98D8618CEE651A5D05CAACCC /* ECExtension-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.6;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.6;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECExtension/ECExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECExtension/ECExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ECExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3928785DE838DB2F0DF207B2C0159267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A78582E91F54C4F1D6F1B0197EC64E /* TextSwitch-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextSwitch/TextSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextSwitch/TextSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TextSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4298B20599AFFA973F1886E87F2FED6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71EE9D2C98D8618CEE651A5D05CAACCC /* ECExtension-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ECExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		58A74EC5F187987DF26A399F55C99353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1588B9C9E3DB96B7FD75F95F6623A4 /* Pods-TextSwitch_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TextSwitch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TextSwitch_Example/Pods-TextSwitch_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TextSwitch_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64CD964DE351D5EEF1DA702D8F3426A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A78582E91F54C4F1D6F1B0197EC64E /* TextSwitch-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TextSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6EDC50C2D8C75CBEE1E7433547FC348A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71EE9D2C98D8618CEE651A5D05CAACCC /* ECExtension-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.6;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.6;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECExtension/ECExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECExtension/ECExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ECExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82A5DCAC7E37C74D5FF92B50FF521134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A78582E91F54C4F1D6F1B0197EC64E /* TextSwitch-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextSwitch/TextSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextSwitch/TextSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TextSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		921630D4C0BA614726315723F0B0D5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A78582E91F54C4F1D6F1B0197EC64E /* TextSwitch-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TextSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9E056D505FEC963B4BAA733DE1B57339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF9AB306F4C0133A9F41A10D3B48D24 /* Pods-TextSwitch_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -797,123 +946,9 @@
 			};
 			name = Debug;
 		};
-		A7DF3F73B23AD6BCBD3DE01B /* Release */ = {
+		B6BD46ABA42A1AD1348BA3A2118476BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8645F4371A19BA0E7BF62B55 /* Pods-TextSwitch_Tests-TextSwitch-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TextSwitch_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TextSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		B6E5BB2A04D33D0B1483E285 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A275088E2E693BBBA1B7F3EC /* Pods-TextSwitch_Example-TextSwitch-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TextSwitch_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TextSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		B6E5F821CA4BC6CE23FADB01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A275088E2E693BBBA1B7F3EC /* Pods-TextSwitch_Example-TextSwitch-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TextSwitch_Example-TextSwitch/Pods-TextSwitch_Example-TextSwitch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-TextSwitch_Example-TextSwitch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TextSwitch_Example-TextSwitch/Pods-TextSwitch_Example-TextSwitch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TextSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E58293DDDAC90E2C05B61ABB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F1EF54C551F3997B931BCDA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A275088E2E693BBBA1B7F3EC /* Pods-TextSwitch_Example-TextSwitch-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TextSwitch_Example-TextSwitch/Pods-TextSwitch_Example-TextSwitch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-TextSwitch_Example-TextSwitch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TextSwitch_Example-TextSwitch/Pods-TextSwitch_Example-TextSwitch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TextSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FC24D0505611F0EDDDA86E07 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CE004D05D4971FC7DEB352A /* Pods-TextSwitch_Example.release.xcconfig */;
+			baseConfigurationReference = EBF0FE3DC31F179BD132ABC5EF4C76AA /* Pods-TextSwitch_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -940,73 +975,102 @@
 			};
 			name = Release;
 		};
+		D44864B2A141F2B06F3344E487EE5C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC2BF1BE9F87202F025E281509F70DA /* Pods-TextSwitch_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TextSwitch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TextSwitch_Tests/Pods-TextSwitch_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TextSwitch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E7FC6D3574F4D05A6CF86B2 /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Example" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3187D4D8ADA66476CD3383F1 /* Debug */,
-				FC24D0505611F0EDDDA86E07 /* Release */,
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5295815C0D6FF7E16F2C47B4 /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Example-TextSwitch-TextSwitch" */ = {
+		32D616C9961D07CB5EFF3A713EF253A0 /* Build configuration list for PBXNativeTarget "TextSwitch-TextSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6E5BB2A04D33D0B1483E285 /* Debug */,
-				2BA70369D1915BDBD65A49F8 /* Release */,
+				64CD964DE351D5EEF1DA702D8F3426A8 /* Debug */,
+				921630D4C0BA614726315723F0B0D5E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80CB8B7D435F4AB320C2032D /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Tests-TextSwitch-TextSwitch" */ = {
+		402F55439728490A26492B67BF6089F9 /* Build configuration list for PBXNativeTarget "TextSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3769E7EFD216E329C819C07E /* Debug */,
-				A7DF3F73B23AD6BCBD3DE01B /* Release */,
+				3928785DE838DB2F0DF207B2C0159267 /* Debug */,
+				82A5DCAC7E37C74D5FF92B50FF521134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC662305CEA0B85B9CA32C2B /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Example-TextSwitch" */ = {
+		9E3223C96EB45482D68B049B189CC420 /* Build configuration list for PBXNativeTarget "ECExtension-ECExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6E5F821CA4BC6CE23FADB01 /* Debug */,
-				F1EF54C551F3997B931BCDA4 /* Release */,
+				4298B20599AFFA973F1886E87F2FED6C /* Debug */,
+				001D69B30F2F3A5933F30B010C09F303 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBD28933406A718B40C9F228 /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Tests" */ = {
+		EA5DF73F9E170261A91C8B2D0B144603 /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A93BB5861732196AD94B32D /* Debug */,
-				7A4A6FA89F9D1B827FD48901 /* Release */,
+				58A74EC5F187987DF26A399F55C99353 /* Debug */,
+				B6BD46ABA42A1AD1348BA3A2118476BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFF2D443EF835C2271B644D7 /* Build configuration list for PBXProject "Pods" */ = {
+		F49F360C462D9E759C1C4E271870B00A /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F7A20F48C1058D4BE4185FF /* Debug */,
-				E58293DDDAC90E2C05B61ABB /* Release */,
+				9E056D505FEC963B4BAA733DE1B57339 /* Debug */,
+				D44864B2A141F2B06F3344E487EE5C28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB5476FE150D94C7EA11FD17 /* Build configuration list for PBXNativeTarget "Pods-TextSwitch_Tests-TextSwitch" */ = {
+		F8E34F95F167C5CE719BDF96C29046BA /* Build configuration list for PBXNativeTarget "ECExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11402AFCFEB0425F2628B025 /* Debug */,
-				5D350B91F3E6214AA64A2D61 /* Release */,
+				0F43E72915B94CF9A4D9B3465E495E3B /* Debug */,
+				6EDC50C2D8C75CBEE1E7433547FC348A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C4B8D4A5E351E3D2465F6228 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

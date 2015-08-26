@@ -25,6 +25,13 @@
     [self setup];
 }
 
+- (instancetype) init
+{
+    self = [super init];
+    [self setup];
+    return self;
+}
+
 - (instancetype) initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -121,6 +128,12 @@
     self.frame = frame;
 }
 
+- (CGSize) intrinsicContentSize
+{
+    return self.offImageView.frame.size;
+}
+
+#pragma mark - public methods
 - (void) setOnImage:(UIImage *)onImage
 {
     _onImage = onImage;
@@ -184,7 +197,7 @@
 - (BOOL) beginTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event
 {
     self.touchPoint = [touch locationInView:self];
-    if (CGRectContainsPoint(self.thumbImageView.frame, self.touchPoint)) {
+    if (CGRectContainsPoint(self.offImageView.frame, self.touchPoint)) {
         return YES;
     }
     return NO;

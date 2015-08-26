@@ -8,6 +8,7 @@
 
 #import "ECViewController.h"
 #import <TextSwitch/TextSwitch.h>
+#import "ECExtension.h"
 
 @interface ECViewController ()
 @property (strong, nonatomic) TextSwitch* switch3;
@@ -53,6 +54,17 @@
     self.switch3 = textSwitch3;
     self.switch3.translatesAutoresizingMaskIntoConstraints = NO;
     NSLog(@"%f", self.switch3.frame.size.height);
+    
+    TextSwitch* textSwitch4 = [[TextSwitch alloc] init];
+    textSwitch4.onImage = [UIImage imageNamed:@"OffImage2.png"];
+    textSwitch4.offImage = [UIImage imageNamed:@"OffImage2.png"];
+    textSwitch4.thumbImage = [UIImage imageNamed:@"Thumb2.png"];
+    textSwitch4.padding = 26;
+    [self.view addSubview:textSwitch4];
+    textSwitch4.translatesAutoresizingMaskIntoConstraints = NO;
+    [textSwitch4 bottomTo:textSwitch3 distance:20];
+//    [textSwitch4 constraintSize:textSwitch4.frame.size];
+    [textSwitch4 centerXInSuperView];
     
 }
 

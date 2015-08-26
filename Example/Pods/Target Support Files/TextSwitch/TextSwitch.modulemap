@@ -1,5 +1,5 @@
 framework module TextSwitch {
-  umbrella header "Pods-TextSwitch_Tests-TextSwitch-umbrella.h"
+  umbrella header "TextSwitch-umbrella.h"
 
   export *
   module * { export * }

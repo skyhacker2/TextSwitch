@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TextSwitch"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Simple iOS switch button with text."
   s.description      = <<-DESC
                         Simple iOS switch button with text.

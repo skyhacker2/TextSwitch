@@ -1,7 +1,9 @@
 PODS:
-  - TextSwitch (0.1.0)
+  - ECExtension (0.1.6)
+  - TextSwitch (0.1.1)
 
 DEPENDENCIES:
+  - ECExtension
   - TextSwitch (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TextSwitch: 4cc2e7874b9a9c3b18a5fcb9efa0319ff09e0a37
+  ECExtension: 80d13eb68b7722859ad1fc397e3fcba57aca1cee
+  TextSwitch: b796bbf9d989fe692c778ff86c24f7a5a3dbe7b7
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.38.2

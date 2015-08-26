@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'TextSwitch_Example', :exclusive => true do
   pod "TextSwitch", :path => "../"
+  pod "ECExtension"
 end
 
 target 'TextSwitch_Tests', :exclusive => true do
