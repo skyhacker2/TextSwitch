@@ -183,13 +183,13 @@
 - (void) setOn:(BOOL)on
 {
     _on = on;
-    [self layoutIfNeeded];
+    [self setNeedsLayout];
 }
 
 - (void) setPadding:(CGFloat)padding
 {
     _padding = padding;
-    [self layoutIfNeeded];
+    [self setNeedsLayout];
 }
 
 #pragma mark - actions
