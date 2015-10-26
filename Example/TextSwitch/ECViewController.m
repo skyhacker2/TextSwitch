@@ -66,6 +66,21 @@
 //    [textSwitch4 constraintSize:textSwitch4.frame.size];
     [textSwitch4 centerXInSuperView];
     
+    TextSwitch* textSwitch5 = [[TextSwitch alloc] init];
+    textSwitch5.onImage = [UIImage imageNamed:@"OffImage3.png"];
+    textSwitch5.offImage = [UIImage imageNamed:@"OffImage3.png"];
+    textSwitch5.thumbImage = [UIImage imageNamed:@"Thumb3.png"];
+    textSwitch5.padding = 23;
+    textSwitch5.offText = @"关";
+    textSwitch5.onText = @"开";
+    textSwitch5.textLabel.font = [UIFont systemFontOfSize:20];
+    textSwitch5.textLabel.textColor = [UIColor grayColor];
+    [self.view addSubview:textSwitch5];
+    textSwitch5.translatesAutoresizingMaskIntoConstraints = NO;
+    [textSwitch5 bottomTo:textSwitch4 distance:20];
+    //    [textSwitch4 constraintSize:textSwitch4.frame.size];
+    [textSwitch5 centerXInSuperView];
+    
 }
 
 - (void)didReceiveMemoryWarning
